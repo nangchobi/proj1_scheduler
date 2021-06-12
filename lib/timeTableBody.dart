@@ -7,6 +7,7 @@ class TimeTableBody extends StatefulWidget {
 
 class _TimeTableBodyState extends State<TimeTableBody> {
   var startTime = DateTime.now();
+//여기서 endTime 의 초기값을 넣으려고 했으니 안됨.
   late var endTime;
 
   @override
